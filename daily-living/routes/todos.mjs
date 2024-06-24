@@ -58,8 +58,30 @@ router.put('/:id', getTodo, async (req, res) => {
     }
 });
 
+//delete a todo
+router.delete('/:id', getTodo, async (req, res) => {
+    try {
+        await res.todo.remove();
+        res.json({ message: 'Todo has been DELETED!'});
+    } catch (err) {
+        res.status(500).json({ message: err.message });
+    }
+});
 
+//middleware function GET todo by ID
+async function getTodo(req, res, next) {
+    let todo;
+    try {
+        todo = await Todo.findById(req.params.id);
+        if (task == null) {
+            return res.status(404).json({ message: 'Todo NOT found, dude' });
+        }
+    } catch (err) {
+        return res.status(500).json({ message: err.message });
+    }
 
-
+    res.todo = todo;
+    next();
+}
 
 export default router;
