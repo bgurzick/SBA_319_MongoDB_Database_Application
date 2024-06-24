@@ -25,9 +25,38 @@ router.post('/', async (req, res) => {
         category: req.body.category,
         status: req.body.status,
     });
-})
 
+    try {
+        const newTodo = await todo.save();
+        res.status(201).json(newTodo);
+    } catch (err) {
+        res.status(400).json({ message: err.message });
+    }
+});
 
+//update a todo
+router.put('/:id', getTodo, async (req, res) => {
+    if (req.body.title != null) {
+        res.todo.title = req.body.title;
+    }
+    if (req.body.description != null) {
+        res.todo.description = req.body.description;
+    }
+    if (req.body.category != null) {
+        res.todo.category = req.body.category;
+    }
+    if (req.body.status != null) {
+        res.todo.status = req.body.status;
+    }
+    res.todo.updatedAt = Date.now();
+
+    try {
+        const updatedTodo = await res.todo.save();
+        res.json(updatedTodo);
+    } catch (err) {
+        res.status(400).json({ message: err.message });
+    }
+});
 
 
 
