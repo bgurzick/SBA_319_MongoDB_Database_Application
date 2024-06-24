@@ -38,5 +38,4 @@ todoSchema.path('title').validate(function (value) {
 
 export default mongoose.model('To-do', todoSchema);
 
-export default Todo;
 
