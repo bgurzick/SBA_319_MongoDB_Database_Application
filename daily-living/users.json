@@ -1,0 +1,43 @@
+[
+    {
+      "name": "Katie",
+      "location": {
+        "city": "Los Angeles",
+        "state": "California"
+      },
+      "profession": "Social Worker"
+    },
+    {
+      "name": "Dra",
+      "location": {
+        "city": "Houston",
+        "state": "Texas"
+      },
+      "profession": "Sales"
+    },
+    {
+      "name": "Chrisanthi",
+      "location": {
+        "city": "Chicago",
+        "state": "Illinois"
+      },
+      "profession": "Teacher"
+    },
+    {
+      "name": "Norman",
+      "location": {
+        "city": "Miami",
+        "state": "Florida"
+      },
+      "profession": "Engineer"
+    },
+    {
+      "name": "Zelda",
+      "location": {
+        "city": "Seattle",
+        "state": "Washington"
+      },
+      "profession": "Doctor"
+    }
+  ]
+  

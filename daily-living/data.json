@@ -1,0 +1,71 @@
+[
+    {
+      "category": "Appointments",
+      "items": [
+        { "id": 1, "type": "PT" },
+        { "id": 2, "type": "OT" },
+        { "id": 3, "type": "Speech" },
+        { "id": 4, "type": "PCP" },
+        { "id": 5, "type": "Dentist" },
+        { "id": 6, "type": "OB-GYN" },
+        { "id": 7, "type": "Neurology" },
+        { "id": 8, "type": "Cardiology" },
+        { "id": 9, "type": "Physiatry (botox)" },
+        { "id": 10, "type": "Therapy" },
+        { "id": 11, "type": "Lisa - Speech" },
+        { "id": 12, "type": "Pushing Boundaries" },
+        { "id": 13, "type": "drive a car" },
+        { "id": 14, "type": "research" }
+      ]
+    },
+    {
+      "category": "Chores",
+      "items": [
+        { "id": 1, "type": "emails" },
+        { "id": 2, "type": "organizing" },
+        { "id": 3, "type": "dishwasher" },
+        { "id": 4, "type": "laundry" },
+        { "id": 5, "type": "budgeting" },
+        { "id": 6, "type": "phone call" },
+        { "id": 7, "type": "event planning" },
+        { "id": 8, "type": "grocery store" },
+        { "id": 9, "type": "online shopping" },
+        { "id": 10, "type": "bake something" },
+        { "id": 11, "type": "cook dinner" },
+        { "id": 12, "type": "clean the bathroom" },
+        { "id": 13, "type": "dusting" },
+        { "id": 14, "type": "vacuum" }
+      ]
+    },
+    {
+      "category": "Exercises",
+      "items": [
+        { "id": 1, "type": "treadmill" },
+        { "id": 2, "type": "walk outside" },
+        { "id": 3, "type": "stretches" },
+        { "id": 4, "type": "e-stim" },
+        { "id": 5, "type": "bike riding" },
+        { "id": 6, "type": "go to the gym" },
+        { "id": 7, "type": "hiking" },
+        { "id": 8, "type": "swimming" },
+        { "id": 9, "type": "BioNess Exercise" },
+        { "id": 10, "type": "kayaking" },
+        { "id": 11, "type": "Outdoors For All" }
+      ]
+    },
+    {
+      "category": "Hobby or Social Activity",
+      "items": [
+        { "id": 1, "type": "make an instagram post" },
+        { "id": 2, "type": "scrapbooking" },
+        { "id": 3, "type": "photo album" },
+        { "id": 4, "type": "make plans with a friend" },
+        { "id": 5, "type": "make friends with Nina" },
+        { "id": 6, "type": "call Nana" },
+        { "id": 7, "type": "Starbucks with Franny" },
+        { "id": 8, "type": "make plans with Brett" },
+        { "id": 9, "type": "plan a future trip" }
+      ]
+    }
+  ]
+  
